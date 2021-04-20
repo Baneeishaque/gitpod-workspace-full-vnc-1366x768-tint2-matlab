@@ -1,7 +1,5 @@
 FROM baneeishaque/gitpod-workspace-full-vnc-1366x768-tint2
 
-# COPY matlab_R2021a_glnxa64.zip /home/gitpod/matlab_R2021a_glnxa64.zip
-
 RUN cd $HOME \
  && wget http://ndktechies.com/files/matlab_R2021a_glnxa64.zip \
  && unzip matlab_R2021a_glnxa64.zip -d matlab_R2021a_glnxa64 \
